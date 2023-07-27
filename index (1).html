@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="Body">
+    <header>
+        <h1 class="h1">sign in</h1>
+    </header>
+    <section id="section">
+    <!-- <form id="form"> -->
+    <div class="lbl1">
+        <label for="email">Mail:</label>
+        <input type="text" id="email">
+        <span id="error-email"></span> 
+          <div id="er1"></div>
+    </div>
+      
+    <div class="lbl2">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone">
+        <div id="er2"></div>
+
+    </div>
+
+    <div class="lbl3"> 
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday">
+        <div id="er3"></div>
+
+    </div>
+    <div>
+        <label for="text"> Your message</label>
+        <input type="text" id="text">
+
+    </div>
+
+    <div class="sbmt">
+       <input type="submit" value="sbmit" id="submitBtn" onclick="formValidation()">
+    </div>
+    </form>
+    <!-- </section> -->
+</div>
+
+<div>
+    <h4 id="eml"></h4>
+    <h4 id="phn"></h4>
+    <h4 id="btd"></h4>
+    <h4 id="txt"></h4>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
+
